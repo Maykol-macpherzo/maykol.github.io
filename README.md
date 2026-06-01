@@ -4,42 +4,76 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Información INACAP Iquique</title>
+<title>INACAP Iquique - Información</title>
 
 <style>
 
-body{
-    font-family: Arial, sans-serif;
-    background-color:#eef2f3;
-    margin:20px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-h1{
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f2f2f2;
+}
+
+header{
+    background:#003366;
+    color:white;
     text-align:center;
-    color:#003366;
+    padding:30px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+nav{
+    background:#004c99;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:8px;
+    box-shadow:0px 2px 5px rgba(0,0,0,0.2);
 }
 
 h2{
-    color:#004080;
-}
-
-p{
-    line-height:1.5;
-}
-
-.contenedor{
-    width:90%;
-    margin:auto;
+    color:#003366;
+    margin-bottom:10px;
 }
 
 table{
     width:100%;
     border-collapse:collapse;
-    background-color:white;
+    margin-top:15px;
 }
 
 th{
-    background-color:#004080;
+    background:#003366;
     color:white;
     padding:12px;
 }
@@ -50,22 +84,23 @@ td{
 }
 
 tr:hover{
-    background-color:#dceeff;
+    background:#d9ecff;
 }
 
-.caja{
-    background:white;
-    padding:15px;
-    margin-top:20px;
-    border-radius:5px;
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin:10px 0;
 }
 
 footer{
-    text-align:center;
-    margin-top:30px;
-    padding:10px;
     background:#003366;
     color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
 }
 
 </style>
@@ -74,16 +109,28 @@ footer{
 
 <body>
 
-<div class="contenedor">
+<header>
+    <h1>Bienvenido a mi página de información de INACAP Iquique</h1>
+    <p>Proyecto HTML y CSS simple creado por un estudiante</p>
+</header>
 
-<h1>Bienvenido a mi página de información de INACAP Iquique</h1>
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Carreras</a>
+    <a href="#">Información</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Información General de INACAP Iquique</h2>
 
 <p>
-Esta página tiene información básica sobre la sede INACAP Iquique, sus carreras,
-infraestructura y algunos datos importantes para estudiantes.
+INACAP Iquique es una sede de educación superior ubicada en la Región de Tarapacá.
+Ofrece carreras técnicas, profesionales y universitarias enfocadas en el aprendizaje práctico.
 </p>
-
-<h2>Información General</h2>
 
 <table>
 
@@ -93,102 +140,82 @@ infraestructura y algunos datos importantes para estudiantes.
 </tr>
 
 <tr>
-<td>Institución</td>
+<td>Nombre</td>
 <td>INACAP Sede Iquique</td>
 </tr>
 
 <tr>
-<td>Ubicación</td>
-<td>Av. La Tirana 4310, Iquique, Región de Tarapacá, Chile.</td>
-</tr>
-
-<tr>
-<td>Tipo de Institución</td>
-<td>Centro de Formación Técnica, Instituto Profesional y Universidad Tecnológica.</td>
+<td>Dirección</td>
+<td>Av. La Tirana 4310, Iquique, Chile</td>
 </tr>
 
 <tr>
 <td>Modalidad</td>
-<td>Presencial y algunas modalidades online.</td>
+<td>Presencial y algunas opciones online</td>
 </tr>
 
 <tr>
-<td>Carreras destacadas</td>
-<td>Informática, Ciberseguridad, Administración, Gastronomía, Electricidad, Mecánica y Construcción.</td>
+<td>Carreras</td>
+<td>Informática, Ciberseguridad, Gastronomía, Mecánica, Administración y más.</td>
 </tr>
 
 <tr>
 <td>Infraestructura</td>
-<td>Laboratorios, talleres técnicos, biblioteca, salas multimedia y áreas de estudio.</td>
-</tr>
-
-<tr>
-<td>Horario</td>
-<td>Jornada diurna y vespertina.</td>
+<td>Laboratorios, biblioteca, talleres técnicos y salas multimedia.</td>
 </tr>
 
 </table>
 
-<div class="caja">
-
-<h2>¿Qué es INACAP?</h2>
-
-<p>
-INACAP es una institución de educación superior en Chile que busca formar
-profesionales y técnicos preparados para el mundo laboral. Cuenta con sedes
-en distintas regiones del país y ofrece carreras relacionadas con tecnología,
-administración, industria, salud, gastronomía y muchas otras áreas.
-</p>
-
 </div>
 
-<div class="caja">
+<div class="card">
 
-<h2>¿Por qué estudiar en INACAP Iquique?</h2>
+<h2>¿Qué ofrece INACAP?</h2>
 
 <ul>
-<li>Amplia variedad de carreras.</li>
-<li>Laboratorios y talleres para actividades prácticas.</li>
-<li>Docentes con experiencia profesional.</li>
-<li>Opciones de continuidad de estudios.</li>
-<li>Vinculación con empresas y empleabilidad.</li>
+<li>Formación técnica y profesional.</li>
+<li>Docentes con experiencia laboral.</li>
+<li>Aprendizaje práctico.</li>
+<li>Actividades estudiantiles y deportivas.</li>
+<li>Apoyo académico para estudiantes.</li>
+<li>Conexión con empresas para empleabilidad.</li>
 </ul>
 
 </div>
 
-<div class="caja">
+<div class="card">
 
 <h2>Vida Estudiantil</h2>
 
 <p>
-Los estudiantes pueden participar en actividades académicas, talleres,
-eventos deportivos, proyectos tecnológicos y actividades recreativas.
-Además, la sede cuenta con espacios de apoyo al estudiante.
+Los estudiantes participan en talleres, proyectos tecnológicos,
+eventos deportivos, actividades recreativas y trabajos colaborativos.
+La sede también cuenta con espacios de estudio y apoyo académico.
 </p>
 
 </div>
 
-<div class="caja">
+<div class="card">
 
 <h2>Mi opinión sobre INACAP Iquique</h2>
 
 <p>
-INACAP Iquique es una institución conocida en la región por ofrecer educación
-orientada al aprendizaje práctico y al desarrollo de competencias laborales.
-Muchos estudiantes eligen esta institución por su variedad de carreras y sus
-instalaciones técnicas.
+INACAP Iquique es una institución reconocida por su enseñanza enfocada en la práctica
+y la preparación para el mundo laboral. Sus carreras permiten desarrollar habilidades
+útiles para distintas áreas del trabajo y la tecnología.
 </p>
+
+</div>
 
 </div>
 
 <footer>
 
-<p>Creada por Maykol Macpherzo</p>
+<h3>Creada por Maykol Macpherzo</h3>
 
 </footer>
-
-</div>
 
 </body>
 </html>
 ```
+
