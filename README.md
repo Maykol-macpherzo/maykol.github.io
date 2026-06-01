@@ -1,221 +1,229 @@
-```html
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>INACAP Iquique - Información</title>
 
-<style>
+    <meta charset="UTF-8">
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body{
-    font-family:Arial, sans-serif;
-    background-color:#f2f2f2;
-}
+    <title>Inacap Iquique</title>
 
-header{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:30px;
-}
-
-header h1{
-    margin-bottom:10px;
-}
-
-nav{
-    background:#004c99;
-    padding:12px;
-    text-align:center;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
-}
-
-nav a:hover{
-    color:yellow;
-}
-
-.container{
-    width:90%;
-    margin:auto;
-    margin-top:20px;
-}
-
-.card{
-    background:white;
-    padding:20px;
-    margin-bottom:20px;
-    border-radius:8px;
-    box-shadow:0px 2px 5px rgba(0,0,0,0.2);
-}
-
-h2{
-    color:#003366;
-    margin-bottom:10px;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-    margin-top:15px;
-}
-
-th{
-    background:#003366;
-    color:white;
-    padding:12px;
-}
-
-td{
-    border:1px solid #ccc;
-    padding:10px;
-}
-
-tr:hover{
-    background:#d9ecff;
-}
-
-ul{
-    padding-left:20px;
-}
-
-li{
-    margin:10px 0;
-}
-
-footer{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:30px;
-}
-
-</style>
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
 
+    <header>
+
+        <!-- Encabezado -->
+
+    </header>
+
+    <nav>
+
+        <!-- Menú de navegación -->
+
+    </nav>
+
+    <main>
+
+        <!-- Contenido principal -->
+
+    </main>
+
+    <footer>
+
+        <!-- Pie de página -->
+
+    </footer>
+
+</body>
+
+</html>
+
 <header>
-    <h1>Bienvenido a mi página de información de INACAP Iquique</h1>
-    <p>Proyecto HTML y CSS simple creado por un estudiante</p>
+
+    <div class="logo">
+
+        <img src="logo.png" alt="Logo de la Empresa">
+
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#">Inicio</a></li>
+
+            <li><a href="#">Servicios</a></li>
+
+            <li><a href="#">Nosotros</a></li>
+
+            <li><a href="#">Contacto</a></li>
+
+        </ul>
+
+    </nav>
+
 </header>
 
-<nav>
-    <a href="#">Inicio</a>
-    <a href="#">Carreras</a>
-    <a href="#">Información</a>
-    <a href="#">Contacto</a>
-</nav>
+<main>
 
-<div class="container">
+    <section class="banner">
 
-<div class="card">
+        <h1>Bienvenido a mi página de información de INACAP Iquique</h1>
 
-<h2>Información General de INACAP Iquique</h2>
+        <p>Ofrecemos los mejores servicios de educación en Iquique.</p>
 
-<p>
-INACAP Iquique es una sede de educación superior ubicada en la Región de Tarapacá.
-Ofrece carreras técnicas, profesionales y universitarias enfocadas en el aprendizaje práctico.
-</p>
+    </section>
 
-<table>
+    <section class="contenido">
 
-<tr>
-<th>Información</th>
-<th>Detalle</th>
-</tr>
+        <article>
 
-<tr>
-<td>Nombre</td>
-<td>INACAP Sede Iquique</td>
-</tr>
+            <h2>Nuestros Servicios</h2>
 
-<tr>
-<td>Dirección</td>
-<td>Av. La Tirana 4310, Iquique, Chile</td>
-</tr>
+            <p>Descripción de los servicios ofrecidos.</p>
 
-<tr>
-<td>Modalidad</td>
-<td>Presencial y algunas opciones online</td>
-</tr>
+            <img src="servicio1.jpg" alt="Servicio 1">
 
-<tr>
-<td>Carreras</td>
-<td>Informática, Ciberseguridad, Gastronomía, Mecánica, Administración y más.</td>
-</tr>
+        </article>
 
-<tr>
-<td>Infraestructura</td>
-<td>Laboratorios, biblioteca, talleres técnicos y salas multimedia.</td>
-</tr>
+        <article>
 
-</table>
+            <h2>Sobre Nosotros</h2>
 
-</div>
+            <p>Información sobre la empresa.</p>
 
-<div class="card">
+            <img src="nosotros.jpg" alt="Nosotros">
 
-<h2>¿Qué ofrece INACAP?</h2>
+        </article>
 
-<ul>
-<li>Formación técnica y profesional.</li>
-<li>Docentes con experiencia laboral.</li>
-<li>Aprendizaje práctico.</li>
-<li>Actividades estudiantiles y deportivas.</li>
-<li>Apoyo académico para estudiantes.</li>
-<li>Conexión con empresas para empleabilidad.</li>
-</ul>
+    </section>
 
-</div>
-
-<div class="card">
-
-<h2>Vida Estudiantil</h2>
-
-<p>
-Los estudiantes participan en talleres, proyectos tecnológicos,
-eventos deportivos, actividades recreativas y trabajos colaborativos.
-La sede también cuenta con espacios de estudio y apoyo académico.
-</p>
-
-</div>
-
-<div class="card">
-
-<h2>Mi opinión sobre INACAP Iquique</h2>
-
-<p>
-INACAP Iquique es una institución reconocida por su enseñanza enfocada en la práctica
-y la preparación para el mundo laboral. Sus carreras permiten desarrollar habilidades
-útiles para distintas áreas del trabajo y la tecnología.
-</p>
-
-</div>
-
-</div>
+</main>
 
 <footer>
 
-<h3>Creada por Maykol Macpherzo</h3>
+    <p>Dirección: Av. La Tirana 4310, Iquique, Chile</p>
+
+    <p>Email: informaciones@inacap.cl</p>
+
+    <div class="redes-sociales">
+
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+
+        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+
+    </div>
 
 </footer>
 
-</body>
-</html>
-```
+body {
 
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header {
+
+    background-color: #333;
+
+    color: white;
+
+    padding: 10px 0;
+
+    text-align: center;
+
+}
+
+header .logo img {
+
+    max-width: 100px;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+nav ul li {
+
+    display: inline;
+
+    margin-right: 10px;
+
+}
+
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.banner {
+
+    background-color: #f4f4f4;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+.contenido {
+
+    padding: 20px;
+
+}
+
+.contenido article {
+
+    margin-bottom: 20px;
+
+}
+
+.contenido article img {
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+footer {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px 0;
+
+}
+
+.redes-sociales img {
+
+    width: 30px;
+
+    margin: 0 10px;
+
+}
