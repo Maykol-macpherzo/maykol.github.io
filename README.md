@@ -169,10 +169,6 @@ width:130px;
 
 <header>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Inacap_logo.png"
-alt="Logo INACAP"
-class="logo">
-
 <h1>INACAP Sede Iquique</h1>
 
 <p>Instituto Profesional y Centro de Formación Técnica - Región de Tarapacá</p>
